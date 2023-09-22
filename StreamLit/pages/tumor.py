@@ -4,6 +4,8 @@ import requests
 from io import BytesIO
 import torch
 
+st.title('Detecting the brain tumor')
+
 CFG_MODEL_PATH = '/Users/irina/workspace/ds_bootcamp/ds-phase-2/cv_project/models/brain_best.pt'
 
 @st.cache_resource
